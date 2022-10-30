@@ -1,5 +1,5 @@
 ```shell
-> curl http://localhost:1323/metrics
+$ curl http://localhost:9360/metrics
 # HELP go_gc_duration_seconds A summary of the pause duration of garbage collection cycles.
 # TYPE go_gc_duration_seconds summary
 go_gc_duration_seconds{quantile="0"} 0
